@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto" animation="{{ani}}">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <button bindtap='start'>动画</button>
+</view>
